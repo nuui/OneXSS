@@ -1,4 +1,4 @@
-export const const_projectcode_prefix = `probe_return_data = {};
+export const const_projectcode_prefix = `var probe_return_data = {};
 function platform_send_data(data) {
     var http = new XMLHttpRequest();
     var url = "{__backend_api_url}";
